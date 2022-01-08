@@ -29,7 +29,7 @@ bool music::load()
     }
     return success;
 }
-bool music::close()
+void music::close()
 {
     Mix_FreeChunk( bgm );
     bgm=NULL;

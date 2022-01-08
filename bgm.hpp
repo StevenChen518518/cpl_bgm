@@ -18,7 +18,7 @@ class music
 public:
     bool init();
     bool load();
-    bool close();
+    void close();
     void play();
     bool gover;
 };
